@@ -9,7 +9,7 @@ on:
 jobs:
   build-native:
     env:
-      DOCKER_ACCOUNT: sogis
+      DOCKER_ACCOUNT: pfeimich
       DOCKER_REPO: sodata
       DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
       DOCKER_USERNAME: ${{secrets.DOCKER_USERNAME}} 
