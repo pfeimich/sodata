@@ -58,7 +58,7 @@ jobs:
         id: dockerTest
         run: ./mvnw test -Dgroups="docker"
 
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v3
         if: ${{ failure() }}
         with:
           name: reports-docker
